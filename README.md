@@ -1,3 +1,6 @@
+Hola mis queridos compañeros secretarios y secretarias de las distintas delegaciones de la UPM. Aquí tenéis un README con, en principio, todas las instrucciones necesarias para usar estos scripts. Sólo tendréis que modificar los archivos .py en los distintos strings para reflejar como querréis que se guarden los contactos de vuestra escuela. Cualquier cosa, no dudéis en escribirme y preguntarme ;)
+
+
 # ESPAÑOL
 
 ## Scripts para automatizar la lectura de censos de delegados e importar los contactos
