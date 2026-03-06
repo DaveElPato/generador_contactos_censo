@@ -30,7 +30,7 @@ mapeo_columnas_ETQ_COD = {
     'CD IOR': ['CD IOR', 'IOR'],
     'CD LIA': ['CD LIA', 'LIA']
 
-}
+} #cambiad este diccionario según los consejos u órganos que tengáis en cada escuela!!!!
 
 # Genera un fichero 'output.csv' en modo escritura con los campos especficados en 'fieldnames'.
 with open('output.csv', 'w', encoding='utf-8', newline='') as csvout:
@@ -53,7 +53,7 @@ with open('output.csv', 'w', encoding='utf-8', newline='') as csvout:
         # Para cada persona registrada, cumplimenta los datos de contacto.
         for row in peoplereader:    
             if not row['Puesto'] == '': #Ignorar personas que estén en el censo, pero no sean delegados de clase. Es probable que ya estén agregados, y así ahorramos problemas.
-                etiquetas = ['DAT 24/25'] #Lista con las etiquetas que se agregarán a google contacts
+                etiquetas = ['DA(escuela) 25/26'] #Lista con las etiquetas que se agregarán a google contacts
                 codigo = [] #Para añadir al nombre del contacto a que órganos pertenece
 
                 #Bucle para determinar datos adicionales con los que guardar el contacto
@@ -68,7 +68,7 @@ with open('output.csv', 'w', encoding='utf-8', newline='') as csvout:
                     codigo= ' - ' + codigo #Para separar visualmente los caracteres del código del resto del nombre si existe código para esta persona. Si no, se verá normal.
 
                 delegateswriter.writerow({
-                    'Name Prefix': '[DAT 24/25] ',
+                    'Name Prefix': '[DA(escuela) 25/26] ',
                     'Name': row['Nombre'].title() + ' ' + row['Apellidos'].title(),
                     'Given Name': row['Nombre'].title(),
                     'Family Name': row['Apellidos'].title() + ' [' + row['Puesto'][0].upper() + row['Grupo'] + ' ' + row['Titulación'] + codigo + ']',
