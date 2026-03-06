@@ -28,9 +28,9 @@ mapeo_columnas_ETQ_COD = {
     'CD ELF': ['CD ELF', 'ELF'],
     'CD TFB': ['CD TFB', 'TFB'],
     'CD IOR': ['CD IOR', 'IOR'],
-    'CD LIA': ['CD LIA', 'LIA']
+    'CD LIA': ['CD LIA', 'LIA']                 #cambiad este diccionario según los consejos u órganos que tengáis en cada escuela!!!!
 
-} #cambiad este diccionario según los consejos u órganos que tengáis en cada escuela!!!!
+} 
 
 # Genera un fichero 'output.csv' en modo escritura con los campos especficados en 'fieldnames'.
 with open('output.csv', 'w', encoding='utf-8', newline='') as csvout:
