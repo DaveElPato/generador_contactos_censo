@@ -10,7 +10,7 @@ El censo inicial (census_inicial) está pensado para usarse una vez que hayan sa
 - Descargar el script
 - Crear una carpeta nueva y mover el script a dicha carpeta
 - Mover el csv a usar a la misma carpeta (Exportado de una tabla excel, o Google Sheets)
-- Editar el archivo .py para actualizar la fecha de la etiqueta "[DA(escuela) XX/XX+1]" al año actual (u otra etiqueta que se vaya a usar, en el caso de scripts como el de FDC)
+- Editar el archivo .py para actualizar la fecha y el nombre de la etiqueta "[DA(escuela) XX/XX+1]" al año actual y vuestra delegación (u otra etiqueta que se vaya a usar, en el caso de scripts como el de FDC)
 - Verificar que los nombres de las columnas en el csv concuerdan con los parámetros del script (si se usa el mismo formato que el censo de ejemplo, deberían coincidir de antemano)
 - Abrir una terminal y ejecutar: python census.py input.csv (o como se llame el csv)
 - Abrir Google Contacts en un navegador, seleccionar "Contactos", pulsar "Crear contacto", "Crear varios contactos", "Importar contactos", seleccionar el output.csv y dejar que la magia ocurra :)
@@ -35,7 +35,7 @@ The initial census (census_inicial) should be used when all the group/class dele
 - Download the script
 - Put it in a separate new folder
 - Add there the csv from the census you want to manage (exported from an excel table, or Google Sheets)
-- Edit the file to update the date of the tag "[DA(escuela) XX/XX+1]" to reflect the current year (or other tags if using other scripts, such as FDC)
+- Edit the file to update the date and name of the tag "[DA(escuela) XX/XX+1]" to reflect the current year and your delegation (or other tags if using other scripts, such as FDC)
 - Check if the column names in the csv match the parameters in the script (if using the same format for the census as the example one, they should match beforehand)
 - Open a console and run: python census.py input.csv (or whatever the csv file name is)
 - Go to Google Contacts in the web browser, select "Contacts", press "Create contact", "Create multiple contacts", "Import contacts", select the output.csv and wait for the magic :)
