@@ -42,3 +42,5 @@ with open('output.csv', 'w', encoding='utf-8', newline='') as csvout:
                 'Organization 1 - Title': 'FDC 24' + row['Turno'],
                 'Organization 1 - Department': row['Club']})
         print('Done!')
+
+        #esto lo modificaríais a gusto según lo que necesitéis. pero es para que os hagáis una idea de cómo adaptarlo. En nuestra "Fiesta de Clubes", teníamos un censo con los voluntarios de cada club, a que club pertenecían, y el turno que les tocaba vigilar.
