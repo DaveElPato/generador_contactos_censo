@@ -1,4 +1,4 @@
-Hola mis queridos compañeros secretarios y secretarias de las distintas delegaciones de la UPM. Aquí tenéis un README con, en principio, todas las instrucciones necesarias para usar estos scripts. Sólo tendréis que modificar los archivos .py en los distintos strings para reflejar como querréis que se guarden los contactos de vuestra escuela. Cualquier cosa, no dudéis en escribirme y preguntarme ;)
+Hola mis queridos compañeros secretarios y secretarias de las distintas delegaciones de la UPM. Aquí tenéis un README con, en principio, todas las instrucciones necesarias para usar estos scripts. Sólo tendréis que modificar los archivos .py en los distintos strings (la parte del final, y el diccionario "mapeo_columnas_ETQ_COD" en el script post elecciones) para reflejar como querréis que se guarden los contactos de vuestra escuela. Cualquier cosa, no dudéis en escribirme y preguntarme ;)
 
 
 # ESPAÑOL
