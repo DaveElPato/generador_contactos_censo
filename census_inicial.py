@@ -30,11 +30,11 @@ with open('output.csv', 'w', encoding='utf-8', newline='') as csvout:
         # Para cada persona registrada, cumplimenta los datos de contacto.
         for row in peoplereader:
             delegateswriter.writerow({
-                'Name Prefix': '[DAT 24/25] ',
+                'Name Prefix': '[DA(escuela) 25/26] ',
                 'Name': row['Nombre'].title() + ' ' + row['Apellidos'].title(),
                 'Given Name': row['Nombre'].title(),
                 'Family Name': row['Apellidos'].title() + ' [' + row['Puesto'][0].upper() + row['Grupo'] + ' ' + row['Titulación'] + ']',
-                'Group Membership': 'DAT 24/25 ::: * myContacts',
+                'Group Membership': 'DA(escuela) 25/26 ::: * myContacts',
                 'E-mail 1 - Type': '* UPM',
                 'E-mail 1 - Value': row['Correo electrónico institucional'],
                 'Phone 1 - Type': 'Mobile',
